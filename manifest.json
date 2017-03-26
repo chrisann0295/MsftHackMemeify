@@ -3,6 +3,14 @@
     "name": "Memeify",
     "description": "Converting all your boring faces to memes",
     "version": "1.0",
+    "browser_action": {
+    "default_icon": "meme.png",
+    "default_popup": "memeifyHome.html"
+  },
+  "permissions": [
+    "activeTab",
+    "https://ajax.googleapis.com/"
+  ],
     "content_scripts": [
         {
             "matches": [
